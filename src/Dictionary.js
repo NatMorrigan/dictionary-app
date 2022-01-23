@@ -24,7 +24,7 @@ export default function Dictionary () {
 
     return (
         <div className="Dictionary">
-            <form onSubmit={search}>
+            <form  className="Search-form  d-flex justify-content-center"onSubmit={search}>
                 <input type="search" onChange={handleKeywordChange} autoFocus={true} />
             </form>
             <Results results={results} />
