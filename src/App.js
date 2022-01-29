@@ -9,9 +9,9 @@ function App() {
         Dictionary
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword ="Hello" />
       </main>
-      <footer className="Footer d-flex justify-content-center"> Coded by <a className="GitLink text-decoration-none" href="https://github.com/NatMorrigan/dictionary-app" target="_blank"> Natalia Hertsovska</a>
+      <footer className="Footer d-flex justify-content-center"> Coded by  {""}<a className="GitLink text-decoration-none" href="https://github.com/NatMorrigan/dictionary-app" target="_blank"> Natalia Hertsovska</a>
        </footer>
     </div>
   );
