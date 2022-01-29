@@ -11,8 +11,12 @@ function App() {
       <main>
         <Dictionary defaultKeyword ="Hello" />
       </main>
-      <footer className="Footer d-flex justify-content-center"> Coded by  {""}<a className="GitLink text-decoration-none" href="https://github.com/NatMorrigan/dictionary-app" target="_blank"> Natalia Hertsovska</a>
-       </footer>
+       <footer className="text-center" >
+This project was created by Natalia Hertsovska and is {" "} 
+<a className="text-decoration-none" href="https://github.com/NatMorrigan/dictionary-app" target="_blank" rel="noreferrer">
+open-sourced on GitHub
+</a> 
+   </footer>
     </div>
   );
 }
